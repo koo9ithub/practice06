@@ -5,8 +5,9 @@
 
 ### **적외선 컨트롤러(IR Controller)**
 
-#### **Submodule 1** : 리모콘의 입력을 
-#### **Submodule 2** : 0~59의 값을 갖는 6bit 입력 신호를 받아 십의 자리 수와 일의 자리 수를 각각 4bit으로 출력
+#### **Submodule 1** : IR Rx Module - Inverted IR Rx Signal
+#### **Submodule 2** : Flexible Numerical Display Decoder
+#### **Submodule 3** : Flexible Numerical Display Decoder
 
 #### **Top Module** : 저번 시간에 만든 second counter  및 Submodule 1/2를 이용하여 실습 장비의 LED에 맞는 Display Module 설계
 
@@ -39,6 +40,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODc3MjAxNTMsLTIwMDE1MTEwMTldfQ
-==
+eyJoaXN0b3J5IjpbMTYwNjU0ODc0NSwtMTQ4NzcyMDE1MywtMj
+AwMTUxMTAxOV19
 -->
