@@ -5,13 +5,12 @@
 
 ### **적외선 컨트롤러(IR Controller)**
 
-#### **Submodule 1** : 0~9의 값을 갖는 4bit 입력 신호를 받아 7bit FND  segment  값 출력
-
+#### **Submodule 1** : 리모콘의 입력을 
 #### **Submodule 2** : 0~59의 값을 갖는 6bit 입력 신호를 받아 십의 자리 수와 일의 자리 수를 각각 4bit으로 출력
 
 #### **Top Module** : 저번 시간에 만든 second counter  및 Submodule 1/2를 이용하여 실습 장비의 LED에 맞는 Display Module 설계
 
-### FPGA 실습 (팀) : 리모컨을 눌렀
+### FPGA 실습 : 리모컨을 눌렀을 때, 버튼에 대응하는 특정 숫자를 Display
 : NCO(Numerical Controlled Oscillator) 입력 바꿔서 4초 간격으로 증가하는 코드 테스트
 
 ## 퀴즈
@@ -40,6 +39,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDU0MTI2MSwtMjAwMTUxMTAxOSwtMT
-g0MjMxMTQ1MV19
+eyJoaXN0b3J5IjpbLTE0ODc3MjAxNTMsLTIwMDE1MTEwMTksLT
+E4NDIzMTE0NTFdfQ==
 -->
