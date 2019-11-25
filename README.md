@@ -12,10 +12,8 @@
 #### **Top Module** : 각 모듈을 이어준다.
 
 ### FPGA 실습 : 리모컨을 눌렀을 때, 버튼에 대응하는 특정 숫자를 Display
-: NCO(Numerical Controlled Oscillator) 입력 바꿔서 4초 간격으로 증가하는 코드 테스트
 
-## 퀴즈
-
+## 웨이브폼
  ### 아래 코드 일부를 수정하여 다음을 구하시오
  
  ```verilog wire  [41:0] six_digit_seg; assign       six_digit_seg = { 4{7'b0000000}, seg_left, seg_right } ```
@@ -40,6 +38,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNjg3NzQ3OSwxNjA2NTQ4NzQ1LC0xND
+eyJoaXN0b3J5IjpbMTEwODg4NTg0MCwxNjA2NTQ4NzQ1LC0xND
 g3NzIwMTUzLC0yMDAxNTExMDE5XX0=
 -->
