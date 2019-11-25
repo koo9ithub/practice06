@@ -14,7 +14,7 @@
 ### FPGA 실습 : 리모컨을 눌렀을 때, 버튼에 대응하는 특정 숫자를 Display
 
 ## 웨이브폼
- ### 아래 코드 일부를 수정하여 다음을 구하시오
+ ### 웨이브폼을 설명하세요.
  
  ```verilog wire  [41:0] six_digit_seg; assign       six_digit_seg = { 4{7'b0000000}, seg_left, seg_right } ```
  
@@ -38,6 +38,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwODg4NTg0MCwxNjA2NTQ4NzQ1LC0xND
-g3NzIwMTUzLC0yMDAxNTExMDE5LC0xODQyMzExNDUxXX0=
+eyJoaXN0b3J5IjpbODk5NzQxNTI0LDExMDg4ODU4NDAsMTYwNj
+U0ODc0NSwtMTQ4NzcyMDE1MywtMjAwMTUxMTAxOSwtMTg0MjMx
+MTQ1MV19
 -->
