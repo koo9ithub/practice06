@@ -7,9 +7,9 @@
 
 #### **Submodule 1** : IR Rx Module - Inverted IR Rx Signal
 #### **Submodule 2** : Flexible Numerical Display Decoder
-#### **Submodule 3** : Flexible Numerical Display Decoder
+#### **Submodule 3** : 0~59 --> 2 Separated Segments
 
-#### **Top Module** : 저번 시간에 만든 second counter  및 Submodule 1/2를 이용하여 실습 장비의 LED에 맞는 Display Module 설계
+#### **Top Module** : 각 모듈을 이어준다.
 
 ### FPGA 실습 : 리모컨을 눌렀을 때, 버튼에 대응하는 특정 숫자를 Display
 : NCO(Numerical Controlled Oscillator) 입력 바꿔서 4초 간격으로 증가하는 코드 테스트
@@ -40,6 +40,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjU0ODc0NSwtMTQ4NzcyMDE1MywtMj
-AwMTUxMTAxOSwtMTg0MjMxMTQ1MV19
+eyJoaXN0b3J5IjpbMjExNjg3NzQ3OSwxNjA2NTQ4NzQ1LC0xND
+g3NzIwMTUzLC0yMDAxNTExMDE5LC0xODQyMzExNDUxXX0=
 -->
