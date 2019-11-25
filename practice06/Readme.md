@@ -13,32 +13,18 @@
 
 ### FPGA 실습 : 리모컨을 눌렀을 때, 버튼에 대응하는 특정 숫자를 Display한다.
 
-## 웨이브폼
- ### 웨이브폼을 설명하세요.
- 
- ```verilog wire  [41:0] six_digit_seg; assign       six_digit_seg = { 4{7'b0000000}, seg_left, seg_right } ```
- 
-  > Q1 - 고정 LED (왼쪽 4개) AAAA 출력 : `AA_AA_00`, `AA_AA_01`, `AA_AA_02`, … 순으로 LED 변경
-
-```verilog wire  [41:0] six_digit_seg; assign       six_digit_seg = { 4{7'b1110111}, seg_left, seg_right } ```
-
-> Q2 - 고정 LED 없이 2개의 LED 단위로 1초 Counter 값 표시 : `00_00_00`, `01_01_01`, `02_02_02`, … 순으로 LED 변경
-
-```verilog wire  [41:0] six_digit_seg; assign       six_digit_seg = {seg_left, seg_right, seg_left, seg_right, seg_left, seg_right } ```
- 
 ## 결과
- 
-### **Top Module 의 DUT/TestBench Code 및 Waveform 검증**
+
+### **Waveform 검증**
 >DUT/T
 
 
-### **FPGA 동작 사진 (3개- 일반, Q1, Q2)**
-`Please fill up your source`
+### **Waveform 설명**
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNTE0NDQ0NCwxMTA4ODg1ODQwLDE2MD
-Y1NDg3NDUsLTE0ODc3MjAxNTMsLTIwMDE1MTEwMTksLTE4NDIz
-MTE0NTFdfQ==
+eyJoaXN0b3J5IjpbMTAyNjUxMjA5MSwxNzM1MTQ0NDQ0LDExMD
+g4ODU4NDAsMTYwNjU0ODc0NSwtMTQ4NzcyMDE1MywtMjAwMTUx
+MTAxOSwtMTg0MjMxMTQ1MV19
 -->
