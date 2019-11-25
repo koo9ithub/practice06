@@ -11,7 +11,7 @@
 
 #### **Top Module** : 각 모듈을 이어준다.
 
-### FPGA 실습 : 리모컨을 눌렀을 때, 버튼에 대응하는 특정 숫자를 Display
+### FPGA 실습 : 리모컨을 눌렀을 때, 버튼에 대응하는 특정 숫자를 Display한다.
 
 ## 웨이브폼
  ### 웨이브폼을 설명하세요.
@@ -38,6 +38,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk5NzQxNTI0LDExMDg4ODU4NDAsMTYwNj
-U0ODc0NSwtMTQ4NzcyMDE1MywtMjAwMTUxMTAxOV19
+eyJoaXN0b3J5IjpbMTczNTE0NDQ0NCwxMTA4ODg1ODQwLDE2MD
+Y1NDg3NDUsLTE0ODc3MjAxNTMsLTIwMDE1MTEwMTldfQ==
 -->
